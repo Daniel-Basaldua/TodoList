@@ -21,7 +21,7 @@ struct AddView: View {
                 TextField("Enter todo here...", text: $todoTextField, axis: .vertical)
                     .padding(.horizontal)
                     .frame(height: 50)
-                    .background(Color(red: 240/255, green: 240/255, blue: 240/255))
+                    .background(Color(UIColor.secondarySystemBackground))
                     .cornerRadius(10)
                 Button {
                     saveButtonPressed()
